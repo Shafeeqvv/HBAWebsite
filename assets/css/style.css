@@ -1,10 +1,7 @@
 
 
 /*===== Google Fonts =====*/
-@import url(https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;1,400;1,500&amp;display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap);
-
-/*===== General Variables =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');/*===== General Variables =====*/
 :root {
   --color1: #333333;
   --color2: #666666;
@@ -75,8 +72,7 @@ body,
 html {overflow-x: hidden;}
 body {
   margin: 0;
-  font-family: Arimo;
-  position: relative;
+  font-family: "Poppins", sans-serif;  position: relative;
   width: 100%;
   max-width: 100%;
   color: var(--color2);
@@ -87,19 +83,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: var(--color1);
   font-weight: 900;
 }
 p {
-  font-family: Arimo;
+  font-family: "Poppins", sans-serif;
   color: var(--color2);
   line-height: 1.875rem;
   font-size: 1.0625rem;
 }
 ul li,
 ol li {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   line-height: 1.875rem;
   font-size: 1rem;
@@ -1232,7 +1228,7 @@ header {
   font-weight: 600;
   color: #fff;
 }
-.topbar-inner > p {font-family: Nunito;}
+.topbar-inner > p {font-family: "Poppins", sans-serif;}
 .top-links > li:not(:first-child):before {
   content: "";
   background-color: #fff;
@@ -1247,7 +1243,7 @@ header {
   padding-left: 1.125rem;
   margin-left: 1rem;
 }
-.social-links > span {font-family: Nunito;}
+.social-links > span {font-family: "Poppins", sans-serif;}
 .social-links > a {
   font-size: 1rem;
   color: #fff;
@@ -1317,7 +1313,7 @@ header {
   font-size: 11px;
   color: #fff;
   font-weight: 700;
-  font-family: Arimo;
+  font-family: "Poppins", sans-serif;
   line-height: 1.125rem;
   height: 1.125rem;
   width: 1.125rem;
@@ -1330,8 +1326,8 @@ nav > div ul li {
 nav ul li a {display: block;}
 nav > div > ul > li {
   line-height: 4.0625rem;
-  font-size: 1.1rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 300;
   text-transform: capitalize;
 }
 /*nav > div > ul > li:not(:first-child):before {
@@ -1351,7 +1347,7 @@ nav > div > ul li.menu-item-has-children > a:before {
   right: 1.375rem;
   top: 0;
   line-height: inherit;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -1474,7 +1470,7 @@ nav ul ul li.menu-item-has-children:hover > ul {
   font-size: 14px;
   margin-top: 5px;
   display: inline-block;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .btns-total {
@@ -1627,14 +1623,14 @@ header.style2 nav > div > ul > li > a {padding: 0;}
 header.style2 nav > div > ul > li:not(:first-child):before {display: none;}
 header.style2 nav > div > ul > li {
   color: #fff;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   line-height: 5.3125rem;
 }
 header.style2 nav > div > ul > li:not(:first-child) {margin-left: 2.1875rem;}
 header.style2 nav > div > ul > li.menu-item-has-children > a {padding-right: .9375rem;}
 header.style2 nav > div > ul > li.menu-item-has-children > a:before {right: 0;}
 .header-contact {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 1.0625rem;
   padding-left: 2.8125rem;
   font-weight: 600;
@@ -1818,7 +1814,7 @@ body.sticky .sticky-menu {
   font-size: 1.125rem;
   font-weight: 600;
   position: relative;
-  text-transform: uppercase;
+  text-transform: capitalize;
   width: 100%;
 }
 .rsnp-mnu > ul > li a {
@@ -1837,7 +1833,7 @@ body.sticky .sticky-menu {
 .rsnp-mnu ul li.menu-item-has-children.active > a {margin-bottom: 15px;}
 .rsnp-mnu > ul li.menu-item-has-children > a::before {
   content: "\f107";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Poppins", sans-serif;
   position: absolute;
   right: 0;
   top: 0;
@@ -1859,7 +1855,7 @@ body.sticky .sticky-menu {
   font-size: .9375rem;
   color: #000;
   font-weight: 800;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   padding: 0.5rem 2rem;
   line-height: initial;
@@ -1960,7 +1956,7 @@ body.sticky .sticky-menu {
 .feat-cap > span {
   font-size: 1.375rem;
   font-weight: 500;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .feat-cap > span + h2 {margin-top: 8px;}
 .feat-cap > h2 {
@@ -2003,7 +1999,7 @@ body.sticky .sticky-menu {
 }
 .title-wrap > span {
   font-size: 1.125rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: var(--color3);
   font-weight: 600;
 }
@@ -2019,7 +2015,7 @@ body.sticky .sticky-menu {
   height: 3.875rem;
   font-size: 1rem;
   color: #6f6f6f;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding: 1rem 2.5rem;
 }
@@ -2029,7 +2025,7 @@ body.sticky .sticky-menu {
 }
 .find-therapist-cap {padding-left: 2.75rem;}
 .find-therapist-cap > p {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: var(--color3);
   font-size: 1.125rem;
@@ -2052,7 +2048,7 @@ body.sticky .sticky-menu {
 .sec-title2-inner > span {
   text-transform: uppercase;
   border-bottom: 1px solid;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1;
@@ -2148,7 +2144,7 @@ body.sticky .sticky-menu {
 .sec-title-inner > span {
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .sub-shap {padding-left: 1rem;}
 .sub-shap:before, 
@@ -2206,7 +2202,7 @@ body.sticky .sticky-menu {
 }
 .simple-link {
   border-bottom: 1px solid;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   line-height: 1;
   color: #fff;
@@ -2374,7 +2370,7 @@ body.sticky .sticky-menu {
 }
 .quote-box-info > h3 + span {margin-top: 4px;}
 .quote-box-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: #fff;
@@ -2401,7 +2397,7 @@ body.sticky .sticky-menu {
   padding-left: 2.1875rem;
 }
 .fact-box-inner > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 1;
   font-size: 2.8125rem;
@@ -2462,7 +2458,7 @@ body.sticky .sticky-menu {
   height: 3.875rem;
   font-size: 14px;
   color: #9b9b9b;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding: 10px 1.875rem;
   width: 100%;
@@ -2544,7 +2540,7 @@ body.sticky .sticky-menu {
 }
 .team-info > h3 + span {margin-top: 6px;}
 .team-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -2563,7 +2559,7 @@ body.sticky .sticky-menu {
 .view-more > p {
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: var(--color3);
 }
 .scndry-layer .view-more > p,
@@ -2611,7 +2607,7 @@ body.sticky .sticky-menu {
   background-color: #fff;
   font-size: 1.0625rem;
   color: #555;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   padding: 0.984375rem 3.3125rem;
 }
@@ -2731,7 +2727,7 @@ body.sticky .sticky-menu {
 .prod-img + .prod-info {padding-top: 1.875rem;}
 .prod-info > span {
   font-size: 1rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .prod-info > span.price {
   top: -1.3125rem;
@@ -2845,7 +2841,7 @@ body.sticky .sticky-menu {
   font-weight: 800;
 }
 .testi-item-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: .9375rem;
 }
@@ -2921,7 +2917,7 @@ body.sticky .sticky-menu {
 .news-box-inner > h3 + ul {margin-top: 13px;}
 ul.meta > li {
   position: relative;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: .9375rem;
   font-weight: 700;
   line-height: 1.5;
@@ -2943,7 +2939,7 @@ ul.meta > li:not(.thm-clr):not(.scndry-clr) {color: #505050;}
 ul.meta + p {margin-top: 14px;}
 .news-box-inner > p {
   line-height: 1.75rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -3050,7 +3046,7 @@ ul.meta + p {margin-top: 14px;}
 }
 .widget-box ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list) > li a:before {
   content: "\f105";
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Poppins", sans-serif;
   position: absolute;
   left: 0;
   top: 0;
@@ -3079,7 +3075,7 @@ form.newsletter-form input {
   height: 4.375rem;
   font-size: 1rem;
   color: #999999;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   background-color: rgba(13,13,13,.8);
   padding: 10px 4.375rem 10px 1.875rem;
@@ -3149,7 +3145,7 @@ form.newsletter-form button {
     font-weight: 600;
 }
 .copyright-links > p {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: .9375rem;
   font-weight: 700;
 }
@@ -3211,7 +3207,7 @@ ul.bottom-links > li:not(:first-child):before {
 .feat-cap2 > span:not(.feat-cap-time) {
   font-size: 1.375rem;
   font-weight: 500;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   padding-bottom: 12px;
 }
 .feat-cap2 > span:before {
@@ -3242,7 +3238,7 @@ ul.bottom-links > li:not(:first-child):before {
   font-size: 1.1rem;
   font-weight: 500;
   color: #fff;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .feat-cap2 > span.feat-cap-time span {
   font-weight: 500;
@@ -3331,7 +3327,7 @@ ul.bottom-links > li:not(:first-child):before {
 .special-box-inner > h4 + p {margin-top: 6px;}
 .special-box-inner > p {
   font-size: 1.4rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   margin-left: 1.5rem;
   margin-top: 1rem;
@@ -3413,7 +3409,7 @@ ul.bottom-links > li:not(:first-child):before {
 .about-desc > span:not(.about-time) {
   border-bottom: 1px solid;
   font-size: 1rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
   line-height: 1;
@@ -3443,7 +3439,7 @@ ul.bottom-links > li:not(:first-child):before {
 .about-desc > span.about-time {
   color: var(--color3);
   font-size: 1rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 .about-desc > span.about-time span {
@@ -3486,7 +3482,7 @@ ul.bottom-links > li:not(:first-child):before {
   left: 50%;
   color: #fff;
   text-transform: capitalize;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   -webkit-border-top-left-radius: 0 !important;
@@ -3677,7 +3673,7 @@ ul.bottom-links > li:not(:first-child):before {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 14px;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 
 /*===== Blog Style 2 =====*/
@@ -3770,7 +3766,7 @@ ul.bottom-links > li:not(:first-child):before {
 .working-hours > span:not(:first-child) {margin-top: 1.5625rem;}
 .working-hours > span {
   font-size: 1.125rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 .working-hours > span i {
@@ -3831,7 +3827,7 @@ ul.bottom-links > li:not(:first-child):before {
 .feat-cap3 {max-width: 40.9375rem;}
 .feat-cap3 > span {
   font-size: 1.375rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 .feat-cap3 > span + h2 {margin-top: 10px;}
@@ -3909,7 +3905,7 @@ ul.bottom-links > li:not(:first-child):before {
 .enroll-inner > h3 + span {margin-top: 4px;}
 .enroll-inner > span {
   font-size: 1.25rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 .enroll-inner > span + p {margin-top: 1rem;}
@@ -4021,7 +4017,7 @@ ul.bottom-links > li:not(:first-child):before {
 }
 .about-info > h3 + span {margin-top: .9375rem;}
 .about-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 600;
 }
@@ -4065,7 +4061,7 @@ ul.bottom-links > li:not(:first-child):before {
   margin-top: 2.5rem;
 }
 .proced-box > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 2.5rem;
   color: #fff;
@@ -4103,7 +4099,7 @@ ul.bottom-links > li:not(:first-child):before {
   font-size: .9375rem;
   line-height: 1.375rem;
   color: var(--color1);
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   display: inline-block;
   max-width: 80%;
@@ -4123,7 +4119,7 @@ ul.bottom-links > li:not(:first-child):before {
 .course-box > span.price {
   left: 0;
   color: #fff;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 1.125rem;
   padding: 6.5px 13.1px;
@@ -4175,7 +4171,7 @@ ul.bottom-links > li:not(:first-child):before {
 }
 .course-info > a.course-author-img + span {margin-top: 11px;}
 .course-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #888;
   font-size: .9375rem;
@@ -4189,7 +4185,7 @@ ul.bottom-links > li:not(:first-child):before {
 .course-info > h3 + .rating {margin-top: 8px;}
 .rating {
   font-size: 14px;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #555;
 }
@@ -4207,7 +4203,7 @@ ul.bottom-links > li:not(:first-child):before {
   position: relative;
   font-size: .9375rem;
   font-weight: 700;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .course-info-bottom > span:not(:first-child) {
   margin-left: 13px;
@@ -4257,7 +4253,7 @@ ul.bottom-links > li:not(:first-child):before {
 .video-box > span, 
 .impact-inner > span {
   font-size: 1.125rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
 }
 .video-box > span + h2, 
@@ -4293,7 +4289,7 @@ ul.bottom-links > li:not(:first-child):before {
 }
 .impact-fact-box-inner > span {
   font-size: 1.875rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   line-height: 1;
 }
@@ -4338,7 +4334,7 @@ ul.bottom-links > li:not(:first-child):before {
   font-size: 1.0625rem;
   line-height: 1.875rem;
   text-transform: uppercase;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   padding: 12.5px 1.25rem;
   -webkit-border-radius: 0 0 5px 5px;
@@ -4350,7 +4346,7 @@ ul.bottom-links > li:not(:first-child):before {
 /*===== Side Title Style =====*/
 .side-title {padding-right: 2rem;}
 .side-title-inner > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   font-weight: 800;
 }
@@ -4473,7 +4469,7 @@ ul.bottom-links > li:not(:first-child):before {
 .bottom-bar.v3 p {
   font-size: 1rem;
   font-weight: 700;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 
 /*===== Page Title Style =====*/
@@ -4620,7 +4616,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
   color: #414141;
   font-size: 14px;
   text-transform: uppercase;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 .gallery-video-box > a.thm-bg:hover > *, 
@@ -4708,7 +4704,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .appointment-calendar td, 
 .appointment-calendar th {
   border: 0;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #555;
   font-size: 1.0625rem;
@@ -4758,7 +4754,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .appointment-item-inner > span {
   font-size: 1rem;
   color: #828282;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: initial;
 }
@@ -4813,7 +4809,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .contact-info-box > span, 
 .contact-info-box > p {
   font-size: 1.125rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .thm-layer .contact-info-box > span, 
@@ -4896,7 +4892,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
   right: 0;
   font-size: 11.6875rem;
   z-index: -1;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   color: #d1f1f5;
   line-height: 1;
@@ -5012,7 +5008,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .mini-post-box:hover > a::before {opacity: .5;}
 .mini-post-box > a:after {
   content: "\f0c1";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   color: #fff;
   position: absolute;
@@ -5045,7 +5041,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 }
 .mini-post-info > h5 + span {margin-top: 7px;}
 .mini-post-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: .9375rem;
   font-weight: 700;
 }
@@ -5148,7 +5144,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .insta-gal-list + .insta-gal-bottom {margin-top: .9375rem;}
 .insta-gal-bottom-inner > span {
   text-transform: uppercase;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 800;
   color: #999;
@@ -5194,7 +5190,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .post-detail > ul:not(.meta3) li + li {margin-top: 4px;}
 .post-detail > ul:not(.meta3) li:before {
   content: "\f061";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Poppins", sans-serif;
   position: absolute;
   left: 0;
   top: 0;
@@ -5218,7 +5214,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
   top: 1.25rem;
   left: 1.25rem;
   color: #fff;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 700;
   padding: 7.75px 1.25rem;
@@ -5230,7 +5226,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
   border-radius: 10px 10px 0 0;
   left: 2.1875rem;
   font-size: .9375rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #555;
   padding: 1.015625rem 2rem;
@@ -5246,7 +5242,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .meta3 > li:not(:first-child) {margin-left: 1.875rem;}
 .meta3 > li i {margin-right: 10px;}
 .social-links5 > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: .9375rem;
   font-weight: 700;
   color: #555;
@@ -5281,7 +5277,7 @@ blockquote.blockquote > p {
   line-height: 1.875rem;
   max-width: 65%;
   font-style: italic;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .post-detail p + figure, 
 .post-detail figure + p {margin-top: 2.1875rem;}
@@ -5483,7 +5479,7 @@ figure > a {
 .comment-info > span + span {margin-left: 1.25rem;}
 .comment-info > span {
   font-size: 14px;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 .comment-info > span.rate {font-size: 13px;}
@@ -5558,7 +5554,7 @@ figure > a {
 .post-feat-img > span.price {
   left: 0;
   color: #fff;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 1.125rem;
   padding: 6.5px 12px;
@@ -5592,7 +5588,7 @@ figure > a {
   font-size: .9375rem;
   font-weight: 700;
   color: #888;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
 }
 .course-authr-rate > span i {margin-right: 8px;}
 .course-authr-rate > span + .rating {margin-left: 1.75rem;}
@@ -5641,7 +5637,7 @@ figure > a {
 }
 .team-detail-info > h3 + span {margin-top: 5px;}
 .team-detail-info > span {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -5703,7 +5699,7 @@ figure > a {
   border-top: 1px solid #dadada;
   padding: 7.5px 1.75rem;
   font-size: 1rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: #666;
   margin-top: 1.5625rem;
@@ -5731,7 +5727,7 @@ figure > a {
 }
 .team-detail-wrap > ul li:before {
   content: "\f061";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   position: absolute;
   left: 0;
@@ -5774,7 +5770,7 @@ figure > a {
 .prod-detail-info {margin-top: 1.25rem;}
 .rating .rate + a {margin-left: 1.25rem;}
 .rating > a {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: var(--color3);
   font-weight: 700;
   font-size: 14.65px;
@@ -5788,7 +5784,7 @@ figure > a {
 }
 .prod-detail-info > h2 + span {margin-top: 7px;}
 .prod-detail-info > span:not(.sku) {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 1.0625rem;
   font-weight: 800;
   color: var(--color3);
@@ -5796,13 +5792,13 @@ figure > a {
 .prod-detail-info .rating .rate {font-size: 13px;}
 .price-stock {margin-top: .9375rem;}
 .price-stock span.price {
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
 .price-stock > span:not(.price) {
   font-size: .9375rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: var(--color3);
 }
@@ -5820,7 +5816,7 @@ figure > a {
 .price-stock > span:not(.price) span {margin-left: 12px;}
 .sku {
   font-size: 1.0625rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: var(--color3);
   margin-top: 9px;
@@ -5836,7 +5832,7 @@ figure > a {
 }
 .prod-detail-info > form label {
   font-size: 1.25rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #888;
 }
@@ -5850,7 +5846,7 @@ figure > a {
 }
 .slc-box:before {
   content: "\f0d7";
-  font-family: "Font Awesome 5 Free";
+  font-family:"Poppins", sans-serif;
   font-weight: 900;
   color: #fff;
   right: 0;
@@ -5867,7 +5863,7 @@ figure > a {
   appearance: none;
   cursor: pointer;
   font-size: 1.0625rem;
-  font-family: Nunito;
+  font-family: "Poppins", sans-serif;
   color: #999;
   font-weight: 700;
   width: 100%;
@@ -6534,7 +6530,7 @@ figure > a {
 	color:#ffb444;
 	font-size:16px;
 	font-weight:600;
-	font-family: "Font Awesome 5 Free";
+	font-family: "Poppins", sans-serif;
 }
 
 .sn-about-img{
