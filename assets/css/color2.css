@@ -1,6 +1,6 @@
 :root {
-  --theme-color: #56bcfc;
-  --secondary-color: #41a9e8;
+  --theme-color: #41a9e8;
+  --secondary-color: #56bcfc;
 }
 
 /*===== Primary Color =====*/
@@ -16,10 +16,6 @@
 .thm-btn.scndry-bg:after,
 .thm-btn.bg-black:before,
 .thm-btn.bg-black:after,
-.slick-slider > button.slick-arrow:hover,
-.slick-slider > button.slick-arrow:focus,
-.slick-slider.feat-caro > button.slick-arrow:hover,
-.slick-slider.feat-caro > button.slick-arrow:focus,
 .serv-box:hover .serv-box-inner:before,
 .serv-box-inner:after,
 .serv-info2 > h3 a:hover,
@@ -35,8 +31,6 @@
 .scndry-bg .topbar-right > a.search-btn:focus,
 .logo.v2:after,
 .feat-cap2 > span:not(.feat-cap-time):before,
-.feat-caro2.slick-slider > button.slick-arrow:hover,
-.feat-caro2.slick-slider > button.slick-arrow:focus,
 .special-box:after,
 .serv-box2.v2 .serv-info2 > h3 a:before,
 .serv-box2.v2 .serv-info2 > h3 a:hover,
@@ -99,9 +93,6 @@ header.style3 nav > div > ul > li > a:after,
 .social-links > a:focus,
 .header-contact-info > li a:hover,
 .header-contact-info > li a:focus,
-nav ul li:hover > a,
-nav ul li.active > a,
-nav ul li > a:focus,
 .serv-box:hover > i,
 .simple-link.scndry-clr:hover,
 .simple-link.scndry-clr:focus,
@@ -177,9 +168,6 @@ figure > a:focus,
 .rsnp-mnu ul > li > a:focus,
 .serv-post-authr > a:hover,
 .serv-post-authr > a:focus,
-.sticky-menu.v2 nav > div > ul > li:hover > a,
-.sticky-menu.v2 nav > div > ul > li.active > a,
-.sticky-menu.v2 nav > div > ul > li > a:focus,
 .course-athr a:hover,
 .course-athr a:focus,
 .serv-box4-inner > h3 a:hover,
@@ -264,7 +252,6 @@ header.style1 nav ul li > a:focus,
 .prod-img > a.thm-bg:focus,
 .widget-title:before,
 .widget-title:after,
-.feat-caro2.slick-slider > button.slick-arrow,
 .serv-box2.v2 .serv-info2 > h3 a:hover:before,
 .serv-box2.v2 .serv-info2 > h3 a:focus:before,
 .serv-box2.v2 .serv-info2 > h3 a,
@@ -370,4 +357,11 @@ ol.breadcrumb li.breadcrumb-item.active,
 
 {
 	border-right-color: var(--secondary-color);
+}
+
+.sticky-menu.v2 nav > div > ul > li:hover > a,
+.sticky-menu.v2 nav > div > ul > li.active > a,
+.sticky-menu.v2 nav > div > ul > li > a:focus,
+{
+	color: black;
 }
