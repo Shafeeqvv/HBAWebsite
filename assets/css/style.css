@@ -1773,10 +1773,10 @@ body.sticky .sticky-menu {
 }
 .rspn-cnt > span i {margin-right: .5rem;}
 .rspn-mnu-btn {
-  background-color: #fff;
-  color: #41a9e8;
+  background-color: transparent;
+  color: #fff;
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 1.975rem;
   height: 2.5rem;
   line-height: 2.5rem;
   position: absolute;
