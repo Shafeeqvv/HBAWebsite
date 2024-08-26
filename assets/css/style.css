@@ -33,13 +33,13 @@
     border: none;
 }
 
-/* Define the keyframes for the jumping animation */
+/* Define the keyframes for the jumping animation 
 @keyframes jump {
     0%, 100% {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px); /* Adjust the jump height */
+        transform: translateY(-10px);  Adjust the jump height */
     }
 }
 
