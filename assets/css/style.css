@@ -39,7 +39,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px);  Adjust the jump height */
+        transform: translateY(-10px); Adjust the jump height */
     }
 }
 
@@ -1975,6 +1975,34 @@ body.sticky .sticky-menu {
 .scndry-bg .thm-btn.thm-bg:after {background-color: #000;}
 
 /*===== Featured Area Style 1 =====*/
+
+.feat-img {
+  position: relative; /* Ensure the pseudo-element is positioned correctly */
+}
+
+.feat-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.6); /* Blue overlay with 50% opacity */
+  z-index: 2; /* Ensure it’s above the video but below the content */
+  pointer-events: none; /* Prevents the overlay from blocking interactions */
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; /* Ensure the video is below the overlay */
+}
+
+
 .feat-item {max-height: 43.4375rem;}
 .feat-img:before {
   content: "";
