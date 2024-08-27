@@ -27,6 +27,14 @@
   --curve20: 1.25rem;
 }
 
+.language-switcher select {
+    padding: 2px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
 /* Make the modal background transparent */
 .modal-content {
     background: white;
@@ -3299,6 +3307,26 @@ ul.bottom-links > li:not(:first-child):before {
   max-height: 44.375rem;
   min-height: 44.375rem;
 }
+
+
+
+@media (min-width: 3000px){
+
+  .feat-item2
+   {
+    max-height: 65.375rem;
+  }
+
+  .feat-item2 .feat-img {
+    max-height: 65.375rem;
+    min-height: 65.375rem;
+  }
+  .overlap421
+  {
+    margin-top: -33rem;
+  }
+}
+
 
 .feat-cap2-wrap {
   max-width: 73.125rem;
