@@ -27,6 +27,48 @@
   --curve20: 1.25rem;
 }
 
+/*contact-card*/
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+}
+
+.card h3 {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+}
+.card h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card p {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+
+    .card {
+        max-width: 100%;
+    }
+}
+
 .language-switcher select {
     padding: 2px;
     font-size: 12px;
@@ -595,6 +637,12 @@ footer {
   width: 100%;
   z-index: -1;
 }
+
+.footer-dark
+{
+  background-color: #00032F;
+}
+
 .black-layer:before {background-color: #000000;}
 .white-layer:before {background-color:#ffffff;}
 .gray-layer:before {background-color: var(--color6);}
@@ -1023,6 +1071,34 @@ button i {
 }
 
 /*=== Social Media ===*/
+
+.tiktok-hvr,
+.tiktok-hvr:hover,
+.tiktok-hvr:focus,
+.widget-box.v2 .social-links3 > a.tiktok-hvr:hover,
+.widget-box.v2 .social-links3 > a.tiktok-hvr:focus,
+.prod-detail-meta .social-links5 > a.tiktok-hvr:hover,
+.prod-detail-meta .social-links5 > a.tiktok-hvr:focus
+{
+  background-color: #111111;
+  border-color: #3b5999;
+  color: #fff;
+}
+
+.whatsapp,
+.whatsapp-hvr:hover,
+.whatsapp-hvr:focus,
+.widget-box.v2 .social-links3 > a.whatsapp-hvr:hover,
+.widget-box.v2 .social-links3 > a.whatsapp-hvr:focus,
+.prod-detail-meta .social-links5 > a.whatsapp-hvr:hover,
+.prod-detail-meta .social-links5 > a.whatsapp-hvr:focus
+{
+  background-color: #25d366;
+  border-color: #3b5999;
+}
+
+
+
 .facebook,
 .facebook-hvr:hover,
 .facebook-hvr:focus,
@@ -1153,6 +1229,8 @@ button i {
 .rss-clr,
 .rss:hover,
 .rss:focus {color: #f26522;}
+
+
 
 /*===== Theme Style =====*/
 
@@ -1732,6 +1810,19 @@ header.style2 nav > div > ul > li > a {padding: 0;}
 
 header.style2 nav > div > ul > li:hover > a,
 header.style2 nav > div > ul > li.active > a{color: black;}
+
+header.style2 nav > div > ul > li > select.language
+{
+  border-radius: 2px;
+  font-size: 14px ;
+}
+
+rspn-hdr.rsnp-mnu ul > li > select.language
+{
+ border-radius: 2px;
+  font-size: 14px ;
+}
+
 
 /*===== Sticky Header =====*/
 .sticky-menu {
@@ -3069,7 +3160,7 @@ ul.meta + p {margin-top: 14px;}
 
 /*===== Footer Style 1 =====*/
 .footer-data {margin-bottom: -3.75rem;}
-.widget-box {margin-bottom: 3.75rem;}
+.widget-box {margin-bottom: 2.75rem;}
 .widget-title {
   font-size: 1.5rem;
   margin-bottom: 1.125rem;
@@ -3077,9 +3168,9 @@ ul.meta + p {margin-top: 14px;}
 }
 .widget-title2 {
   font-size: 1.625rem;
-  padding-left: 2.1875rem;
   margin-bottom: 1.875rem;
   font-weight: 700;
+  color: #fff;
 }
 .widget-title2 > i {
   left: 0;
@@ -3137,7 +3228,7 @@ ul.meta + p {margin-top: 14px;}
   padding-right: 1.25rem;
 }
 .widget-box ul.contact-info-list li {
-  font-size: 1rem;
+  font-size: 12px;
   font-weight: 500;
 }
 .col-lg-4 .widget-box ul.contact-info-list li {max-width: 80%;}
@@ -3905,17 +3996,19 @@ ul.bottom-links > li:not(:first-child):before {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
-.working-hours > span i {
-  font-style: normal;
+.widget-box.v2 .working-hours span  {
   font-size: 1rem;
   margin-top: 3px;
+  color: #b2b2b2;
 }
+
+
 .dark-layer .working-hours > span {color: #d7d7d7;}
 .dark-layer .working-hours > span i {color: #fff;}
 .widget-box > p + form {margin-top: 1.25rem;}
 .widget-box.v2 > form input {padding: 10px 3.7rem 10px 1.5625rem;}
 .widget-box.v2 > form button {right: 1.5625rem;}
-.widget-box.v2 > p {font-size: 1rem;}
+.widget-box.v2 > p {font-size: 1rem;color: #b2b2b2}
 
 /*===== Bottom Bar Style 2 =====*/
 .bottom-bar.v2 {padding: 0 0 2.1875rem;}
@@ -4903,7 +4996,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 /*===== Contact Style =====*/
 .sec-title3 {
   margin-top: -8px;
-  margin-bottom: 3.125rem;
+  margin-bottom: 2.125rem;
 }
 .sec-title3-inner {max-width: 57%;}
 .sec-title3-inner > h3 {
@@ -4976,8 +5069,7 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 }
 .social-links3.v2 > h3 {font-weight: 800;}
 .social-links3.v2 > a {background-color: rgba(0,0,0,.2);}
-.social-links3.v2 > a:hover, 
-.social-links3.v2 > a:focus {color: var(--color3);}
+
 .sec-title4 {margin-bottom: 2.0625rem;}
 .sec-title4-inner > h2 {
   font-size: 2.625rem;
@@ -4992,14 +5084,16 @@ ol.breadcrumb li.breadcrumb-item + li.breadcrumb-item:before {
 .contact-form > form .field-box {margin-bottom: 10px;}
 .contact-form > form .field-box input, 
 .contact-form > form .field-box textarea {
-  height: 3.75rem;
-  color: #777;
+  height: 2.75rem;
+  color: #000;
+  background-color: #ddd;
 }
 .field-box textarea, 
-.contact-form > form .field-box textarea {height: 9.6875rem;}
+.contact-form > form .field-box textarea {height: 5.6875rem;}
 .contact-form > form button {
-  height: 3.875rem;
+  height: 2.875rem;
   font-size: 1rem;
+  color: #fff;
 }
 
 /*===== 404 Error Style =====*/

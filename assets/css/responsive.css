@@ -811,7 +811,7 @@ figure.alignright {margin: 0 0 2rem;width: 100%;}
 .about-desc.v2,
 .about-desc.v3 {text-align: center;}
 .about-desc.v2 > span.about-time span {width: 100%;margin: 0 0 7px;}
-.footer-data .widget-box {text-align: center;}
+.footer-data .widget-box {text-align: start;}
 .col-lg-4 .widget-box ul:not(.contact-info-list):not(.ftr-gal-list):not(.insta-gal-list) > li {flex: 0 0 100%;max-width: 100%;}
 .social-links3 > h3 {flex: 0 0 100%;max-width: 100%;margin: 0 0 1.25rem !important;}
 .social-links3 > a:first-of-type {margin-left: 0;}
