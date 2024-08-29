@@ -30,7 +30,7 @@
 /*contact-card*/
 .card {
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s;
@@ -40,9 +40,9 @@
 }
 
 .card h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
-    margin-top: 10px;
+    margin-top: 15px;
     color: red;
     text-align: center;
 }
@@ -60,6 +60,7 @@
 
 .card:hover {
     transform: translateY(-10px);
+    margin-top: 10px;
 }
 
 @media (max-width: 768px) {
@@ -2887,7 +2888,19 @@ body.sticky .sticky-menu {
 
 /*===== Products Style =====*/
 .prod-wrap {margin-bottom: -2.8125rem;}
-.prod-box {margin-bottom: 2.8125rem;}
+
+.prod-box 
+{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: 100%;
+  padding: 5px;
+  height: 100%;
+}
+
 .prod-img:before {
   content: "";
   position: absolute;
@@ -2926,7 +2939,7 @@ body.sticky .sticky-menu {
 .prod-img > a.scndry-bg:focus {color: #fff;}
 .prod-img > a.thm-bg:hover, 
 .prod-img > a.thm-bg:focus {color: #000;}
-.prod-img + .prod-info {padding-top: 1.875rem;}
+.prod-img + .prod-info {padding-top: 1rem;padding-bottom: 1rem;}
 .prod-info > span {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
@@ -2949,7 +2962,7 @@ body.sticky .sticky-menu {
 .prod-info > h3 {
   font-size: 1rem;
   line-height: 1.875rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 .prod-info > h3 + span {margin-top: 2px;}
 .prod-info > span:not(.price) {font-weight: 800;}
