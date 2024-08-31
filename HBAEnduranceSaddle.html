@@ -90,34 +90,34 @@
                                         <div class="prod-detail-info-wrap mt-5 w-100">
                                             <div class="gallery">
                                                 <div class="text-center main-image-col mb-4 mb-lg-0">
-                                                    <a href="assets/images/saddle/saddle5.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle5.jpg" class="main-image">
+                                                    <a href="assets/images/saddle/saddle5.jpg" data-lightbox="gallery" id="main-image-link">
+                                                        <img src="assets/images/saddle/saddle5.jpg" class="main-image" id="main-image">
                                                     </a>
                                                 </div>
                                                 <div class="thumbnails">
-                                                    <a href="assets/images/saddle/saddle1.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle1.jpg" class="thumbnail">
+                                                    <a href="assets/images/saddle/saddle1.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle1.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle2.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle2.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle2.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle2.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle3.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle3.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle3.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle3.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle4.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle4.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle4.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle4.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle5.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle5.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle5.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle5.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle6.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle6.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle6.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle6.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle7.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle7.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle7.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle7.jpg" class="thumbnail-img">
                                                     </a>  
-                                                     <a href="assets/images/saddle/saddle8.jpg" data-lightbox="gallery">
-                                                        <img src="assets/images/saddle/saddle8.jpg" class="thumbnail">
+                                                     <a href="assets/images/saddle/saddle8.jpg" data-lightbox="gallery" class="thumbnail">
+                                                        <img src="assets/images/saddle/saddle8.jpg" class="thumbnail-img">
                                                     </a>      
                                                 </div>
                                             </div>
@@ -174,6 +174,19 @@
         <script src="assets/js/isotope.min.js"></script>
         <script src="assets/js/slick.min.js"></script>
         <script src="assets/js/custom-scripts.js"></script>
-        <script src="assets/js/lightbox.min.js"></script>
+        <script>
+            const thumbnails = document.querySelectorAll('.thumbnail');
+
+            thumbnails.forEach(thumbnail => {
+                thumbnail.addEventListener('click', function(e) {
+                    e.preventDefault(); // Prevent default anchor behavior
+                    const newSrc = this.querySelector('img').src;
+                    const mainImage = document.getElementById('main-image');
+                    const mainImageLink = document.getElementById('main-image-link');
+                    mainImage.src = newSrc;
+                    mainImageLink.href = newSrc; 
+                });
+            });
+        </script>
     </body> 
 </html>
