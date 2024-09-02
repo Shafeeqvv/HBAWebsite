@@ -27,6 +27,16 @@
   --curve20: 1.25rem;
 }
 
+.list-suppliment ul li{
+
+  color: #666666;
+  font-size: 12px;
+}
+.list-suppliment h6{
+  text-align: left;
+}
+
+
 /*contact-card*/
 .card {
     background-color: #fff;
@@ -3669,9 +3679,9 @@ ul.bottom-links > li:not(:first-child):before {
   display: inline-block;
   width: 100%;
 }
-.about-desc > strong + p {margin-top: 8px;}
+.about-desc > strong + p {margin-top: 10px;}
 .about-desc > p {
-  font-size: 1.125rem;
+  font-size: 12px;
   max-width: 95%;
 }
 .about-desc > p + p {margin-top: 1.25rem;}
