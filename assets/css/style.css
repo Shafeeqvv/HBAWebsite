@@ -15,7 +15,7 @@
   --color8: #3a250f;
   --color9: #402f24;
   --color10: #432818;
-  --color11: #00032F;
+  --color11: #41a9e8;
   --color12: #432818;
   --color13: #c7bb99;
   --color14: #bb9457d6;
@@ -1725,9 +1725,9 @@ header.style3 .topbar-inner,
   font-size: .9375rem;
   line-height: 1.375rem;
   padding:5px 8px;
-  background-color: #00032f;
+  background-color: var(--color11);
   width: 3.5cm;
-  height:1cm;
+  height:0.8cm;
   z-index: 9999;
 }
 .bg-color11 .header-contact,
