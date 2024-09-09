@@ -6,9 +6,6 @@
 /*===== Primary Color =====*/
 
 /*===== Background Color =====*/
-header.style3 nav > div > ul > li.active > a,
-header.style3 nav > div > ul > li > a:hover,
-header.style3 nav > div > ul > li > a:focus,
 .thm-bg,
 .thm-layer:before,
 .search-btn:hover,
@@ -99,9 +96,14 @@ header.style3 nav > div > ul > li > a:focus,
 }
 
 /*===== Text Color =====*/
+header.style3 nav > div > ul > li.active > a,
+header.style3 nav > div > ul > li > a:hover,
+header.style3 nav > div > ul > li > a:focus,
 .thm-clr,
 .top-links > li a:hover,
 .top-links > li a:focus,
+.social-links > a:hover,
+.social-links > a:focus,
 .header-contact-info > li a:hover,
 .header-contact-info > li a:focus,
 .serv-box > i,
@@ -297,8 +299,6 @@ td.fc-today,
 }
 
 /*===== Text Color =====*/
-.social-links > a:hover,
-.social-links > a:focus,
 .sticky-menu.v2 nav > div > ul > li:hover > a,
 .sticky-menu.v2 nav > div > ul > li.active > a,
 .sticky-menu.v2 nav > div > ul > li > a:focus,
@@ -381,9 +381,4 @@ ol.breadcrumb li.breadcrumb-item.active,
 {
 	border-right-color: var(--secondary-color);
 }
-header.style3 nav > div > ul > li > a:hover,
-header.style3 nav > div > ul > li > a:focus,
-header.style3 nav > div > ul > li.active > a
-{
-	color: white;
-}
+
