@@ -3,6 +3,35 @@
 }
 
 
+@media  (min-width: 2000px) {
+  .feat-item2 {
+    max-height: 60rem;
+  }
+
+  .feat-item2 .feat-img {
+    max-height: 60rem;
+    min-height: 90rem;
+  }
+
+  .feat-cap2 > h2 {
+    font-size: 4.125rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 3.8rem;
+  }
+
+  .feat-cap2 > h2 + p {margin-top: 10px;}
+  .feat-cap2 > p {
+    font-size: 2.125rem;
+    line-height: 2.875rem;
+  }
+
+  .overlap421{
+    margin-top: -32rem;
+  }
+
+}
+
 @media  (min-width: 3000px) {
   .feat-item2 {
     max-height: 80rem;
@@ -10,7 +39,7 @@
 
   .feat-item2 .feat-img {
     max-height: 80rem;
-    min-height: 80rem;
+    min-height: 120rem;
   }
 
   .feat-cap2 > h2 {

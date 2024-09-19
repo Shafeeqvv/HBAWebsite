@@ -34,6 +34,17 @@ a:hover{
   color: var(--color11);
 }
 
+.hover-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    background-color:var(--color11); /* Optional: To add some rounded corners */
+}
+
+.hover-img:hover {
+    transform: scale(1.1); /* Zooms in the image */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
 /*contact-card*/
 .card {
     background-color: #fff;
@@ -152,7 +163,11 @@ p {
   font-family: "Poppins", sans-serif;
   color: var(--color2);
   line-height: 1.875rem;
-  font-size: 1.0625rem;
+  font-size: 13px;
+  text-align: justify;
+}
+.top-noti p{
+  text-align: center;
 }
 ul li,
 ol li {
@@ -355,7 +370,7 @@ footer {
   position: relative;
   z-index: 1;
 }
-.overlap421{margin-top: -18rem;}
+.overlap421{margin-top: -23rem;}
 .overlap-35 {margin-bottom: -2.1875rem;}
 .overlap-45 {margin-bottom: -2.8125rem;}
 .overlap-60 {margin-bottom: -3.75rem;}
@@ -2203,7 +2218,6 @@ body.sticky .sticky-menu {
 }
 
 /*===== Sec Title Style 2 =====*/
-.sec-title2-inner {max-width: 60%;}
 .sec-title2-inner > span {
   text-transform: uppercase;
   border-bottom: 1px solid;
@@ -2246,12 +2260,13 @@ body.sticky .sticky-menu {
   font-weight: 800;
 }
 .sec-title2.v3 .sec-title2-inner > span + h2 {margin-top: 0;}
-.sec-title2.v3 .sec-title2-inner > h2 {font-size: 2.8125rem;}
+.sec-title2.v3 .sec-title2-inner > h2 {font-size: 2rem;margin-bottom: 10px;}
 .sec-title2.v3 .sec-title2-inner > h2 + p {margin-top: 3px;}
 .sec-title2.v3 .sec-title2-inner > p {
-  font-size: 1.25rem;
+  font-size: 12px;
   line-height: 2rem;
   color: #555;
+  text-align: justify;
 }
 
 /*===== Services Style 1 =====*/
@@ -3126,7 +3141,6 @@ ul.meta + p {margin-top: 14px;}
 }
 .widget-title2 {
   font-size: 1.625rem;
-  padding-left: 2.1875rem;
   margin-bottom: 1.875rem;
   font-weight: 700;
   color: #fff;
@@ -3365,7 +3379,7 @@ ul.bottom-links > li:not(:first-child):before {
   transform: translate(-50%, -50%);
   margin-top: -4.375rem;
 }
-.feat-cap2 {max-width: 70%;margin-top: 250px;}
+.feat-cap2 {max-width: 70%;margin-top: 100px;}
 .feat-cap2 > span:not(.feat-cap-time) {
   font-size: 1.375rem;
   font-weight: 500;
@@ -3423,26 +3437,8 @@ ul.bottom-links > li:not(:first-child):before {
   z-index: 2;
   margin-top: -3.125rem;
 }
-.special-wrap > div.row > div:not(:first-child)::before {
-  content: "";
-  position: absolute;
-  height: 1rem;
-  width: 1rem;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background-color: #fff;
-  z-index: 2;
-  top: 50%;
-  margin-left: -8px;
-  left: 0;
-  margin-top: -3.5rem;
-}
-.special-wrap {
-  -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
-  -ms-box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
-  -o-box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
-  box-shadow: 0 0 1.5rem rgba(0, 0, 0, .05);
-}
+
+
 .special-box:after {
   content: "";
   position: absolute;
@@ -4470,11 +4466,7 @@ ul.bottom-links > li:not(:first-child):before {
 .client-img {
   left: 50%;
   margin-left: -2.8125rem;
-  top: -2.625rem;
-  -webkit-box-shadow: 0 0 1.875rem rgba(0,0,0,.08);
-  -ms-box-shadow: 0 0 1.875rem rgba(0,0,0,.08);
-  -o-box-shadow: 0 0 1.875rem rgba(0,0,0,.08);
-  box-shadow: 0 0 1.875rem rgba(0,0,0,.08);
+  top: -6.625rem;
 }
 .client-img > span {
   background-color: #fff;
