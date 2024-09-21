@@ -34,12 +34,12 @@
 
 @media  (min-width: 3000px) {
   .feat-item2 {
-    max-height: 80rem;
+    max-height: 90rem;
   }
 
   .feat-item2 .feat-img {
-    max-height: 80rem;
-    min-height: 120rem;
+    max-height:90rem;
+    min-height: 130rem;
   }
 
   .feat-cap2 > h2 {
@@ -56,7 +56,7 @@
   }
 
   .overlap421{
-    margin-top: -40rem;
+    margin-top: -50rem;
   }
 
 }
