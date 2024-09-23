@@ -34,7 +34,7 @@
 
 
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   #timeline .demo-card:nth-child(even) .head::after,
   #timeline .demo-card:nth-child(odd) .head::after {
     position: absolute;
@@ -98,7 +98,7 @@
   margin: auto;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   #timeline .demo-card-wrapper {
     display: flex;
     flex-flow: column wrap;
@@ -118,7 +118,7 @@
   border-left: 1px solid rgba(191, 191, 191, 0.4);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   #timeline .demo-card-wrapper::after {
     border-left: 1px solid #bdbdbd;
   }
@@ -146,7 +146,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   #timeline .demo-card {
     max-width: 450px;
     height: 400px;
@@ -204,7 +204,7 @@
 
 #timeline .demo-card .head h2 {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: inherit;
   letter-spacing: 2px;
   margin: 0;
@@ -266,7 +266,7 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   #timeline .demo-card .body img {
     width: 40%; /* Adjust image size for larger screens */
   }
@@ -274,43 +274,43 @@
 
 /* Demo Card Steps Background Colors */
 #timeline .demo-card--step1 {
-  background-color: #46b8e9;
+  background-color: #46a9e8;
 }
 
 #timeline .demo-card--step1 .head::after {
-  border-color: #46b8e9;
+  border-color: #46a9e8;
 }
 
 #timeline .demo-card--step2 {
-  background-color: #3ee9d1;
+  background-color: #46a9e8;
 }
 
 #timeline .demo-card--step2 .head::after {
-  border-color: #3ee9d1;
+  border-color: #46a9e8;
 }
 
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: #46a9e8;
 }
 
 #timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+  border-color: #46a9e8;
 }
 
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: #46a9e8;
 }
 
 #timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+  border-color: #46a9e8;
 }
 
 #timeline .demo-card--step5 {
-  background-color: #46b8e9;
+  background-color: #46a9e8;
 }
 
 #timeline .demo-card--step5 .head::after {
-  border-color: #46b8e9;
+  border-color: #46a9e8;
 }
 .leader{
   font-size: 14px;
