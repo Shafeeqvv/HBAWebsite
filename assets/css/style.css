@@ -372,7 +372,7 @@ footer {
   position: relative;
   z-index: 1;
 }
-.overlap421{margin-top: -28rem;}
+.overlap421{margin-top: -25rem;}
 .overlap-35 {margin-bottom: -2.1875rem;}
 .overlap-45 {margin-bottom: -2.8125rem;}
 .overlap-60 {margin-bottom: -3.75rem;}
@@ -3381,7 +3381,7 @@ ul.bottom-links > li:not(:first-child):before {
   transform: translate(-50%, -50%);
   margin-top: -4.375rem;
 }
-.feat-cap2 {max-width: 70%;margin-top: 90px;}
+.feat-cap2 {max-width: 70%;margin-top: 150px;}
 .feat-cap2 > span:not(.feat-cap-time) {
   font-size: 1.375rem;
   font-weight: 500;
@@ -3487,16 +3487,23 @@ ul.bottom-links > li:not(:first-child):before {
 }
 .special-box-inner > h4 + p {margin-top: 6px;}
 .special-box-inner > p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  margin-left:1.5rem;
+  margin-left:.8rem;
   margin-top: 1rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .special-box.thm-bg:hover > i {color: var(--color5);}
 .special-box.thm-bg:hover .special-box-inner > h4 {color: var(--color3);}
-.special-box.thm-bg:hover .special-box-inner > p {color: #555;}
+.special-box.thm-bg:hover .special-box-inner > p {color: #fff;}
+
+
+.special-box img{
+  height: 60px;
+  width: 60px;
+}
+
 
 /*=== Ver 2 ===*/
 .special-box.v2 {

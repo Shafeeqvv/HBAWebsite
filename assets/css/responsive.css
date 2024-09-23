@@ -20,6 +20,8 @@
     line-height: 3.8rem;
   }
 
+  .feat-cap2 {max-width: 70%;margin-top: 320px;}
+
   .feat-cap2 > h2 + p {margin-top: 10px;}
   .feat-cap2 > p {
     font-size: 2.125rem;
@@ -27,7 +29,7 @@
   }
 
   .overlap421{
-    margin-top: -32rem;
+    margin-top: -25rem;
   }
 
 }
@@ -55,8 +57,10 @@
     line-height: 2.875rem;
   }
 
+  .feat-cap2 {max-width: 100%;margin-top: 450px;}
+
   .overlap421{
-    margin-top: -50rem;
+    margin-top: -40rem;
   }
 
 }
