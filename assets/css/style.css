@@ -30,6 +30,295 @@
   --curve20: 1.25rem;
 }
 
+
+
+
+
+@media (min-width: 1000px) {
+  #timeline .demo-card:nth-child(even) .head::after,
+  #timeline .demo-card:nth-child(odd) .head::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+  #timeline .demo-card:nth-child(even) .head::before,
+  #timeline .demo-card:nth-child(odd) .head::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    background-color: #bdbdbd;
+    border-radius: 9px;
+    box-shadow: 0px 0px 2px 8px #f7f7f7;
+  }
+}
+
+/* Custom Card Order */
+.demo-card:nth-child(1) {
+  order: 1;
+}
+
+.demo-card:nth-child(2) {
+  order: 4;
+}
+
+.demo-card:nth-child(3) {
+  order: 2;
+}
+
+.demo-card:nth-child(4) {
+  order: 5;
+}
+
+.demo-card:nth-child(5) {
+  order: 3;
+}
+
+.demo-card:nth-child(6) {
+  order: 6;
+}
+
+/* Timeline Container */
+#timeline {
+  padding: 100px 0;
+  background: #f7f7f7;
+  border-top: 1px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+
+
+
+#timeline .demo-card-wrapper {
+  position: relative;
+  margin: auto;
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    width: 1170px;
+    height: 1650px;
+    margin: 0 auto;
+  }
+}
+
+#timeline .demo-card-wrapper::after {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card-wrapper::after {
+    border-left: 1px solid #bdbdbd;
+  }
+}
+
+/* Demo Card Styling */
+#timeline .demo-card {
+  position: relative;
+  display: block;
+  margin: 10px auto 80px;
+  max-width: 94%;
+  z-index: 2;
+}
+
+@media (min-width: 480px) {
+  #timeline .demo-card {
+    max-width: 60%;
+    box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+  }
+}
+
+@media (min-width: 720px) {
+  #timeline .demo-card {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card {
+    max-width: 450px;
+    height: 400px;
+    margin: 90px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  #timeline .demo-card:nth-child(odd) {
+    margin-right: 45px;
+  }
+  #timeline .demo-card:nth-child(odd) .head::after {
+    border-left-width: 15px;
+    border-left-style: solid;
+    left: 100%;
+  }
+  #timeline .demo-card:nth-child(odd) .head::before {
+    left: 491.5px;
+  }
+  #timeline .demo-card:nth-child(even) {
+    margin-left: 45px;
+  }
+  #timeline .demo-card:nth-child(even) .head::after {
+    border-right-width: 15px;
+    border-right-style: solid;
+    right: 100%;
+  }
+  #timeline .demo-card:nth-child(even) .head::before {
+    right: 489.5px;
+  }
+  #timeline .demo-card:nth-child(2) {
+    margin-top: 180px;
+  }
+}
+
+/* Card Head Section */
+#timeline .demo-card .head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+#timeline .demo-card .head .number-box {
+  display: inline;
+  float: left;
+  margin: 15px;
+  padding: 10px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.17);
+}
+
+#timeline .demo-card .head h2 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: inherit;
+  letter-spacing: 2px;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+@media (min-width: 480px) {
+  #timeline .demo-card .head h2 {
+    font-size: 165%;
+  }
+}
+
+#timeline .demo-card .head h2 span {
+  display: block;
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+@media (min-width: 480px) {
+  #timeline .demo-card .head h2 span {
+    font-size: 0.8rem;
+  }
+}
+
+/* Card Body Section */
+#timeline .demo-card .body {
+  background: #fff;
+  border: 1px solid rgba(191, 191, 191, 0.4);
+  border-top: 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#timeline .demo-card .body p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-align: justify; /* Center text for a clean look */
+}
+
+#timeline .demo-card .body img {
+  display: block;
+  max-width: 100%; /* Ensure the image never exceeds the card width */
+  height: auto; /* Keep the aspect ratio */
+  margin: 10px auto 0; /* Add spacing between text and image */
+}
+
+/* Responsive Adjustments for Smaller Screens */
+@media (max-width: 768px) {
+  #timeline .demo-card {
+    max-width: 90%; /* Increase card width for smaller screens */
+    margin: 20px auto; /* Add more margin for smaller screens */
+  }
+
+  #timeline .demo-card .body img {
+    width: 70%; /* Reduce image size slightly for smaller screens */
+  }
+}
+
+@media (min-width: 1000px) {
+  #timeline .demo-card .body img {
+    width: 40%; /* Adjust image size for larger screens */
+  }
+}
+
+/* Demo Card Steps Background Colors */
+#timeline .demo-card--step1 {
+  background-color: #46b8e9;
+}
+
+#timeline .demo-card--step1 .head::after {
+  border-color: #46b8e9;
+}
+
+#timeline .demo-card--step2 {
+  background-color: #3ee9d1;
+}
+
+#timeline .demo-card--step2 .head::after {
+  border-color: #3ee9d1;
+}
+
+#timeline .demo-card--step3 {
+  background-color: #ce43eb;
+}
+
+#timeline .demo-card--step3 .head::after {
+  border-color: #ce43eb;
+}
+
+#timeline .demo-card--step4 {
+  background-color: #4d92eb;
+}
+
+#timeline .demo-card--step4 .head::after {
+  border-color: #4d92eb;
+}
+
+#timeline .demo-card--step5 {
+  background-color: #46b8e9;
+}
+
+#timeline .demo-card--step5 .head::after {
+  border-color: #46b8e9;
+}
+.leader{
+  font-size: 14px;
+}
+
+
+
+
 a:hover{
   color: var(--color11);
 }
@@ -587,7 +876,7 @@ footer {
   width: 100%;
   z-index: -1;
 }
-.black-layer:before {background-color: #000000;}
+.black-layer:before {background-color: #00032ff0;}
 .white-layer:before {background-color:#ffffff;}
 .gray-layer:before {background-color: var(--color6);}
 .dark-layer:before {background-color: var(--color9);}
@@ -1046,6 +1335,41 @@ button i {
   background-color: #dd4b39;
   border-color: #dd4b39;
 }
+
+.instagram,
+.instagram-hvr:hover,
+.instagram-hvr:focus,
+.widget-box.v2 .social-links3 > a.instagram-hvr:hover,
+.widget-box.v2 .social-links3 > a.instagram-hvr:focus,
+.prod-detail-meta .social-links5 > a.instagram-hvr:hover,
+.prod-detail-meta .social-links5 > a.instagram-hvr:focus {
+  background-color: #e1306c;
+  border-color: #e1306c;
+}
+
+.whatsapp,
+.whatsapp-hvr:hover,
+.whatsapp-hvr:focus,
+.widget-box.v2 .social-links3 > a.whatsapp-hvr:hover,
+.widget-box.v2 .social-links3 > a.whatsapp-hvr:focus,
+.prod-detail-meta .social-links5 > a.whatsapp-hvr:hover,
+.prod-detail-meta .social-links5 > a.whatsapp-hvr:focus {
+  background-color: #25D366;
+  border-color: #25D366;
+}
+
+.tiktok,
+.tiktok-hvr:hover,
+.tiktok-hvr:focus,
+.widget-box.v2 .social-links3 > a.tiktok-hvr:hover,
+.widget-box.v2 .social-links3 > a.tiktok-hvr:focus,
+.prod-detail-meta .social-links5 > a.tiktok-hvr:hover,
+.prod-detail-meta .social-links5 > a.tiktok-hvr:focus {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+
 .pinterest,
 .pinterest-hvr:hover,
 .pinterest-hvr:focus,
@@ -1116,6 +1440,7 @@ button i {
   background-color: #f26522;
   border-color: #f26522;
 }
+
 .facebook-clr,
 .facebook:hover,
 .facebook:focus {color: #3b5999;}
@@ -1929,10 +2254,10 @@ body.sticky .sticky-menu {
 }
 .rspn-cnt > span i {margin-right: .5rem;}
 .rspn-mnu-btn {
-  background-color: var(--color1);
-  color: #fff;
+  background-color: transparent;
+  color: #41a9e8;
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 1.875rem;
   height: 2.5rem;
   line-height: 2.5rem;
   position: absolute;
@@ -1963,10 +2288,10 @@ body.sticky .sticky-menu {
   visibility: visible;
 }
 .rspn-mnu-cls {
-  background-color: #303030;
-  color: #fff;
+  background-color: transparent;
+  color: #41a9e8;
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   height: 2.5rem;
   line-height: 2.5rem;
   position: absolute;
@@ -3427,18 +3752,7 @@ ul.bottom-links > li:not(:first-child):before {
 .feat-cap2 > span + a {margin-top: 2.625rem;}
 
 /*===== Special Style 1 =====*/
-.special-wrap > div.row > div {position: relative;}
-.special-wrap > div.row > div:not(:first-child)::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 6.25rem;
-  border-left: 1px dashed rgba(255,255,255,.5);
-  width: 1px;
-  top: 50%;
-  z-index: 2;
-  margin-top: -3.125rem;
-}
+
 
 
 .special-box:after {

@@ -63,6 +63,10 @@
     margin-top: -40rem;
   }
 
+  .black-layer .page-title-inner > h1{
+    font-size: 5rem;
+  }
+
 }
 
 
